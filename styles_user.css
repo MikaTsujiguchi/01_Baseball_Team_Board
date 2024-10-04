@@ -1,0 +1,106 @@
+/* ベーススタイル */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* フォーム全体のデザイン */
+.jumbotron {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* ラベルと入力欄のスタイル */
+label {
+  font-size: 1.5em;
+  color: #333;
+  display: block;
+  /* margin-bottom: 5px; */
+  text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 1px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* ラジオボタンのスタイル */
+label input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* ボタンのスタイル */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2em;
+  width: 100%;
+  margin-top: 5px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* "Go Back To Log In" ボタン */
+#navbar-brand {
+  display: inline-block;
+  background-color: #f44336;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin-left: 300px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#navbar-brand:hover {
+  background-color: #e53935;
+}
+
+/* レスポンシブデザイン
+@media (max-width: 600px) {
+  .jumbotron {
+    padding: 20px;
+  }
+} */
